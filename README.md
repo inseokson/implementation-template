@@ -29,3 +29,11 @@ make export
 
 For consistency and reliability, this repository uses black(as code formatter), isort(as import formatter) and flake8(as linting).
 
+### Pre-commit hook
+
+Install pre-commit hooks to ensure consistency! It will check your code style every time you commit:
+
+```
+# Activate conda environment
+pre-commit install
+```
