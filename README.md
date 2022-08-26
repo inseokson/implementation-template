@@ -24,3 +24,8 @@ Once you added or removed package(s), update `environment.yaml` by running comma
 ```
 make export
 ```
+
+## Code Style
+
+For consistency and reliability, this repository uses black(as code formatter), isort(as import formatter) and flake8(as linting).
+
