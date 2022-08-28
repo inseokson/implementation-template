@@ -37,3 +37,7 @@ Install pre-commit hooks to ensure consistency! It will check your code style ev
 # Activate conda environment
 pre-commit install
 ```
+
+### Github Action
+
+This repository uses Github Actions for code style. See `./.github/workflows/code-style-check.yaml` for details.
